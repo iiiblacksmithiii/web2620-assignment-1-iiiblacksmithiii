@@ -1,0 +1,255 @@
+/*specifies there is a border-box, font-family standard, and that font size begins at 16px(any changes will be to 16 
+Ex.  font-size: 2rem; 1rem will add to root 16px*/
+:root {
+    /*box-sizing: border-box;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+*{
+    margin: 0;
+    padding: 0; 
+}
+body {
+    /*Margin pulls in the content from the border so it's closer to the center of margin, padding, border, content*/
+    /*margin: 0px 0px 0px 0px;*/  
+    min-width: 240px;
+    max-width: 576px;
+}
+header {
+    height: 70px;
+    max-width: 576px;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    /*do height and line-height the same- will center word in the middle*/  
+}
+.leftlogo {
+    position: absolute;
+    font-size: 2.5rem;
+    margin-top: 10px; 
+    margin-left: 20px;
+    color: rgb(0, 0, 0)
+}
+.barsolidlocation{
+    width: auto;
+}
+.barssolidicon{
+    position: fixed;
+    /*margin-right: calc(10%-250px);*/
+    width: 30px;
+    height: 30px;
+    margin-left: 526px;
+    margin-top:20px;
+    
+}
+.home{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 280px;
+}
+.posts{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 360px;
+}
+.oldposts{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 500px;
+}
+.contactus{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 600px;
+}
+.about{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 720px;
+}
+.footer {
+        position: fixed;
+        bottom: 0;
+        height: 25px;
+        width:100%;
+        background-color: lightgray;
+        text-align: center;
+        max-width: 576px;
+}
+
+
+
+
+
+/*.footerright {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width:100%;
+    background-color: lightgray;
+}*/
+.copyright {
+    margin-top: 5px;
+    margin-right: 10px;
+    content:"\00a9 me";
+    font-size: 12px;
+    text-align: center;
+}
+.previousbutton {
+    position: absolute;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 25px;
+    background-color: lightgray;
+    padding: 15px;
+    width: 50px;
+    height: 4px;
+}
+.previousbuttonwords {
+    position: absolute;
+    margin-top: 0px;
+    left: 25px;
+    bottom: 13px;
+    color: black;
+    width: 150px;
+    height: 10px;
+    font-size: 12px; 
+}
+.numberpage {
+    position: absolute;
+    margin-top: 10px;
+    left: 200px;
+    border-radius: 25px;
+    
+    padding: 15px;
+    width: 50px;
+    height: 2px;
+}
+.numberpagewords {
+    position: absolute;
+    margin-top: 0px;
+    left: 50px;
+    bottom: 13px;
+    color: black;
+    width: 150px;
+    height: 10px;
+    font-size: 12px; 
+}
+
+
+
+
+
+
+/*.footer {
+    position: fixed;
+    bottom: 0;
+    height: 25px;
+    width:100%;
+    background-color: lightgray;
+    text-align: center;
+    max-width: 576px;
+}*/
+
+/*.nextbutton {
+    max-width: 576px;
+    position: right;
+    margin-top: 10px;
+    left: 490px;
+    border-radius: 25px;
+    background-color: lightgray;
+    padding: 15px;
+    
+    height: 4px;
+}
+.nextbuttonwords {
+    position: absolute;
+    margin-top: 0px;
+    left: 30px;
+    bottom: 13px;
+    color: black;
+    width: 150px;
+    height: 10px;
+    font-size: 12px; 
+}
+.nextfloatright {
+    width: auto;
+}*/
+
+
+
+
+
+
+
+
+
+.nextbutton {
+    position: absolute;
+    margin-top: 10px;
+    left: 490px;
+    border-radius: 25px;
+    background-color: lightgray;
+    padding: 15px;
+    width: 50px;
+    height: 4px;
+}
+.nextbuttonwords {
+    position: absolute;
+    margin-top: 0px;
+    left: 30px;
+    bottom: 13px;
+    color: black;
+    width: 150px;
+    height: 10px;
+    font-size: 12px; 
+}
+.nextfloatright {
+    width: auto;
+}
+.leftfacebook{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.lefttwitter{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+.leftgoogle{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 180px;
+}
+.firstimage {
+    clear:center;
+    width: auto;
+    height: auto;
+    max-width: 576px;
+}
+.secondimage {
+    clear: center;
+    width: auto;
+    height: auto;
+    max-width: 576px;    
+}
+img{
+    width: auto;
+}
+.font13 {
+    font-size: 13px;
+}
+.font14 {
+    font-size: 12px;
+}
+.font14 {
+    font-size: 14px;
+}
+.font20 {
+    font-size: 20px;
+}
+.font30{
+    font-size: 30px;
+    margin: 1 1 1 1;
+}
